@@ -3,12 +3,29 @@
 <head>
 	<title>The title of my page</title>
 
-	<style type="text/css">
-	/* CSS goes here */
+	<style link rel="stylesheet" href="styles.css" type="text/css">
+
 	</style>
+
 </head>
 <body>
 
-  <div style= "font-color:red; background-color: green; height: 60px; width: 80px"><h1>3000</h1></div>
+   <div style= "font-color:red; background-color: green; height: 60px; width: 80px"><h1>10000</h1></div>
+	<div id= "random" style ="font-color: red; background-color: green; height: 60px; width: 80px"></div>
+
+	<script type="text/javascript">
+
+	function getRandomNumber(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+var el = document.querySelector("#random");
+function upDate(){
+	el.innerHTML = getRandomNumber(1,9);
+}
+    getRandomNumber(1,9);
+		upDate();
+
+
+	</script>
 </body>
 </html>
