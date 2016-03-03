@@ -1,0 +1,12 @@
+.random {
+  font-size: 100px;
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  font-color: red;
+  text-align: center;
+  display: inline;
+}
+.highlight {
+  background-color: yellow;
+}

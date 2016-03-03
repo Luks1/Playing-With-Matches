@@ -1,30 +1,29 @@
 function getRandomNumber(min, max) {
 return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-var el = document.querySelector("#random");
+};
+
+var el = document.querySelectorAll(".random");
+
 function upDate(){
-el.innerHTML = getRandomNumber(1,9);
+  for(i=0; i < el.length; i++){
+    el[i].innerHTML = getRandomNumber(1,3);
+  }
+};
+
+var match = function(){
+  if(el[0].innerHTML === el[1].innerHTML){
+    el[0].classList.add("highlight");
+    el[1].classList.add("highlight");
+  }
+  if(el[0].innerHTML === el[2].innerHTML){
+    el[0].classList.add("highlight");
+    el[2].classList.add("highlight");
+  }
+  if(el[1].innerHTML === el[2].innerHTML){
+    el[1].classList.add("highlight");
+    el[2].classList.add("highlight");
+  }
+
 }
-  getRandomNumber(1,9);
   upDate();
-
-
-  function getRandomNumber(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-  }
-  var el = document.querySelector("#one");
-  function upDate(){
-  el.innerHTML = getRandomNumber(1,3);
-  }
-    getRandomNumber(1,3);
-    upDate();
-
-    function getRandomNumber(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-    }
-    var el = document.querySelector("#two");
-    function upDate(){
-    el.innerHTML = getRandomNumber(1,3);
-    }
-      getRandomNumber(1,3);
-      upDate();
+  match();
