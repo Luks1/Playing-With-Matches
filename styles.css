@@ -1,11 +1,19 @@
-.random {
+.main{
+  background-color: blue;
+  text-align: center;
+  
+}
+
+
+.random{
+  display: inline-block;
+ text-align: center;
   font-size: 100px;
   width: 100px;
-  height: 100px;
   background-color: green;
   font-color: red;
-  text-align: center;
-  display: inline;
+  border: solid;
+  height: 100px;
 }
 .highlight {
   background-color: yellow;
