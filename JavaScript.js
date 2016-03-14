@@ -66,11 +66,11 @@ var match = function(){
     matchtext3.innerHTML = el[3].innerHTML +""+ "are matching in column 1";
     //console.log(matchtext.innerHTML = el[3].innerHTML +""+ "are matching");
   }
-  // if(el[0].innerHTML === el[4].innerHTML){
-  //   el[0].classList.add("highlight");
-  //   el[4].classList.add("highlight");
-  //   matchtext.innerHTML = el[4].innerHTML +""+ "are matching";
-  // }
+  if(el[0].innerHTML === el[4].innerHTML){
+    el[0].classList.add("highlight");
+    el[4].classList.add("highlight");
+    matchtext0.innerHTML = el[4].innerHTML +""+ "are matching diagonal";
+  }
   // if(el[0].innerHTML === el[5].innerHTML){
   //   el[0].classList.add("highlight");
   //   el[5].classList.add("highlight");
@@ -87,27 +87,27 @@ var match = function(){
   //   el[7].classList.add("highlight");
   //   matchtext.innerHTML = el[7].innerHTML +""+ "are matching";
   // }
-  // if(el[0].innerHTML === el[8].innerHTML){
-  //   el[0].classList.add("highlight");
-  //   el[8].classList.add("highlight");
-  //   matchtext.innerHTML = el[8].innerHTML +""+ "are matching";
-  // }
-  // if(el[1].innerHTML === el[3].innerHTML){
-  //   el[1].classList.add("highlight");
-  //   el[3].classList.add("highlight");
-  //   matchtext.innerHTML = el[3].innerHTML +""+ "are matching";
-  // }
+  if(el[0].innerHTML === el[8].innerHTML){
+    el[0].classList.add("highlight");
+    el[8].classList.add("highlight");
+    matchtext0.innerHTML = el[8].innerHTML +""+ "are matching in diagonal";
+  }
+  if(el[1].innerHTML === el[3].innerHTML){
+    el[1].classList.add("highlight");
+    el[3].classList.add("highlight");
+    matchtext1.innerHTML = el[3].innerHTML +""+ "are matching in diagonal";
+  }
   if(el[1].innerHTML === el[4].innerHTML){
     el[1].classList.add("highlight");
     el[4].classList.add("highlight");
     matchtext4.innerHTML = el[4].innerHTML +" "+ "are matching in column 2";
     //console.log(matchtext.innerHTML = el[4].innerHTML +" "+ "are matching");
   }
-  // if(el[1].innerHTML === el[5].innerHTML){
-  //   el[1].classList.add("highlight");
-  //   el[5].classList.add("highlight");
-  //   matchtext.innerHTML = el[5].innerHTML +""+ "are matching";
-  // }
+  if(el[1].innerHTML === el[5].innerHTML){
+    el[1].classList.add("highlight");
+    el[5].classList.add("highlight");
+    matchtext1.innerHTML = el[5].innerHTML +""+ "are matching in diagonal";
+  }
   // if(el[1].innerHTML === el[6].innerHTML){
   //   el[1].classList.add("highlight");
   //   el[6].classList.add("highlight");
@@ -121,22 +121,22 @@ var match = function(){
   }
 
 
-  // if(el[2].innerHTML === el[4].innerHTML){
-  //   el[2].classList.add("highlight");
-  //   el[4].classList.add("highlight");
-  //   matchtext.innerHTML = el[4].innerHTML +""+ "are matching";
-  // }
+  if(el[2].innerHTML === el[4].innerHTML){
+    el[2].classList.add("highlight");
+    el[4].classList.add("highlight");
+    matchtext2.innerHTML = el[4].innerHTML +""+ "are matching in diagonal";
+  }
   if(el[2].innerHTML === el[5].innerHTML){
     el[2].classList.add("highlight");
     el[5].classList.add("highlight");
     matchtext5.innerHTML = el[5].innerHTML +" "+ "are matching in column 3";
     //console.log(matchtext.innerHTML = el[5].innerHTML +" "+ "are matching");
   }
-  // if(el[2].innerHTML === el[6].innerHTML){
-  //   el[2].classList.add("highlight");
-  //   el[6].classList.add("highlight");
-  //   matchtext.innerHTML = el[6].innerHTML +""+ "are matching";
-  // }
+  if(el[2].innerHTML === el[6].innerHTML){
+    el[2].classList.add("highlight");
+    el[6].classList.add("highlight");
+    matchtext2.innerHTML = el[6].innerHTML +""+ "are matching in diagonal";
+  }
 
   if(el[2].innerHTML === el[8].innerHTML){
     el[2].classList.add("highlight");
@@ -162,11 +162,11 @@ var match = function(){
     matchtext6.innerHTML = el[6].innerHTML +" "+ "are matching in column 1";
     //console.log(matchtext.innerHTML = el[6].innerHTML +" "+ "are matching");
   }
-  // if(el[3].innerHTML === el[7].innerHTML){
-  //   el[3].classList.add("highlight");
-  //   el[7].classList.add("highlight");
-  //   matchtext.innerHTML = el[7].innerHTML +""+ "are matching";
-  // }
+  if(el[3].innerHTML === el[7].innerHTML){
+    el[3].classList.add("highlight");
+    el[7].classList.add("highlight");
+    matchtext3.innerHTML = el[7].innerHTML +""+ "are matching in diagonal";
+  }
 
   if(el[4].innerHTML === el[5].innerHTML){
     el[4].classList.add("highlight");
@@ -174,11 +174,11 @@ var match = function(){
     matchtext5.innerHTML = el[5].innerHTML +" "+ "are matching in row 2";
     //console.log(matchtext.innerHTML = el[5].innerHTML +" "+ "are matching");
   }
-  // if(el[4].innerHTML === el[6].innerHTML){
-  //   el[4].classList.add("highlight");
-  //   el[6].classList.add("highlight");
-  //   matchtext.innerHTML = el[6].innerHTML +""+ "are matching";
-  // }
+  if(el[4].innerHTML === el[6].innerHTML){
+    el[4].classList.add("highlight");
+    el[6].classList.add("highlight");
+    matchtext4.innerHTML = el[6].innerHTML +""+ "are matching in diagonal";
+  }
   if(el[4].innerHTML === el[7].innerHTML){
 
     el[4].classList.add("highlight");
@@ -186,11 +186,11 @@ var match = function(){
     matchtext7.innerHTML = el[7].innerHTML +" "+ "are matching in column 2";
     //console.log(matchtext.innerHTML = el[7].innerHTML +" "+ "are matching");
   }
-  // if(el[4].innerHTML === el[8].innerHTML){
-  //   el[4].classList.add("highlight");
-  //   el[8].classList.add("highlight");
-  //   matchtext.innerHTML = el[8].innerHTML +""+ "are matching";
-  // }
+  if(el[4].innerHTML === el[8].innerHTML){
+    el[4].classList.add("highlight");
+    el[8].classList.add("highlight");
+    matchtext4.innerHTML = el[8].innerHTML +""+ "are matching in diagonal";
+  }
 
 
   if(el[5].innerHTML === el[8].innerHTML){
